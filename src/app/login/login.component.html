@@ -1,0 +1,33 @@
+<!-- <app-home *ngIf="homedetails"></app-home> -->
+<section *ngIf="logindetails">
+    <div class="imgBx">
+        <img src=".././../assets/images/bg.jpg">
+    </div>
+    <div class="contentBx">
+        <div class="formBx">
+            <h2>Login</h2>
+            <form>
+                <div class="inputBx">
+                    <span>Username</span>
+                    <input type="text" name="">
+                </div>
+                <div class="inputBx">
+                    <span>Password</span>
+                    <input type="password" name="">
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox" name="">Remember me</label>
+                </div>
+                <div (click)="btnClick()" class="inputBx">
+                    <input type="submit" value="Login" name="">
+                </div>
+                <div class="inputBx">
+                    <p>Dont have an account? <a href="#">Register Now</a></p>
+                </div>
+            </form>
+            
+
+        </div>
+
+    </div>
+</section>
