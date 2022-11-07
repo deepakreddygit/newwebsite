@@ -7,6 +7,7 @@ import { ListviewComponent } from './listview/listview.component';
 import { LoginComponent } from './login/login.component';
 
 import { ReferralDetailsComponent } from './referral-details/referral-details.component';
+import { UploadDocsComponent } from './upload-docs/upload-docs.component';
 
 const routes: Routes = [
    //{ path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -19,8 +20,8 @@ const routes: Routes = [
       
     },
     {
-      path: 'referral-details',
-      component:ReferralDetailsComponent
+      path: 'upload-docs',
+      component:UploadDocsComponent
     }
 
 

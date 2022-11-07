@@ -20,6 +20,7 @@ export class ListviewComponent {
   sidenav!: MatSidenav;
  dashboard=false;
  referral=false;
+ upload=false;
 //  homedetails=true;
 
   constructor(private router: Router, private observer: BreakpointObserver){}
@@ -41,6 +42,7 @@ export class ListviewComponent {
     this.router.navigate(['/home/dashboard']);
     this.dashboard=true;
     this.referral=false;
+    this.upload=false
 
   }
 
@@ -48,6 +50,13 @@ export class ListviewComponent {
     this.router.navigate(['/home/referral-details'])
     this.referral=true;
     this.dashboard=false;
+    this.upload=false;
+  }
+  uploaddocs(){
+    this.router.navigate(['/home/upload-docs'])
+    this.upload=true;
+    this.dashboard=false;
+    this.referral=false;
   }
   
  

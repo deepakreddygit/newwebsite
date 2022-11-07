@@ -16,6 +16,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import{MatButtonModule} from '@angular/material/button';
 import{MatIconModule} from '@angular/material/icon';
 import{MatDividerModule} from '@angular/material/divider';
+import { UploadDocsComponent } from './upload-docs/upload-docs.component';
 
 
 //import { ServicesComponent } from './services/services.component';
@@ -29,6 +30,7 @@ import{MatDividerModule} from '@angular/material/divider';
     ReferralDetailsComponent,
     LoginComponent,
     HomeComponent,
+    UploadDocsComponent,
   
     
 

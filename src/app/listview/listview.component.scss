@@ -85,6 +85,8 @@
 //         display: none;
 //         width: 100%;
 //     }}
+
+
 mat-toolbar{
     background-color: #004a9f;
     color: white;
@@ -106,21 +108,25 @@ mat-sidenav{
 .mat-sidenav .mat-icon{
    
 }
+.icon{
+    margin-bottom: -10%;
+}
 .content{
     height:calc(100vh - 98px);
     margin:16px;
     margin-left:32px;
+
     display: flex;
     justify-content:center; 
     align-items: center;
-    font-size: 2rem;
-    color: lightgray;
+    font-size: 10px;
+    // color: lightgray;
     border-radius: 10px;
 }
-mat-sidenav-container{
-    height:calc(100vh - 65px);
+// mat-sidenav-container{
+//     height:calc(100vh - 65px);
 
-}
+// }
 .menu-button{
     width: 100%;
     display: flex;
@@ -147,3 +153,9 @@ mat-sidenav-container{
     margin-top: 8px;
     font-weight: normal;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
